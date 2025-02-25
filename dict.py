@@ -1,0 +1,10 @@
+student={1:"ayan",2:"usman",3:"furqan"}
+age={"name":"ayan","age":17}
+subject={"name":"ayan","subjects":["math","eng","computer"]}
+#print(student[1])
+#print(age["age"])
+#print(subject["subjects"])
+student[2]="suffyan"
+print(student[2])
+student[4]="hina"
+print(student)
