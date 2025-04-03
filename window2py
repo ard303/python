@@ -1,0 +1,16 @@
+from tkinter import*
+window=Tk()
+window.geometry("500x500")
+window.title("library")
+for i in range(3):
+    for j in range(3):
+        rm=Frame(
+            master=window,
+            relief=RAISED,
+            borderwidth=1
+        )
+        rm.grid(row=i , column=j,pady=4)
+        lbl=Label(master=rm , text=f"Row{i} \n Column{j}")
+        lbl.pack()
+
+window.mainloop()       
